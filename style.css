@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.spoiler {
+    width: 90%;
+    margin: 10px auto;
+    
+}
+
+.spoiler__title {
+    background-image: linear-gradient(to bottom, #aaa, #888);
+    padding: 25px 30px;
+    cursor:pointer;
+}
+
+.spoiler__block {
+    padding: 30px;
+    border: 1px solid #999;
+    overflow: hidden;
+}
